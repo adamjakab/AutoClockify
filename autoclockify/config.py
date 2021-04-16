@@ -20,7 +20,7 @@ def load_config(config_file=None):
         if os.name == "posix":
             config_file = "{0}/.config/autoclockify.json".format(os.path.expanduser("~"))
         elif os.name == "nt":
-            config_file = "{0}/AppData/Local/AutoClockify/autoclockify.json".format(os.path.expanduser("~"))
+            config_file = "{0}\\AppData\\Local\\AutoClockify\\autoclockify.json".format(os.path.expanduser("~"))
         else:
             print("Unsupported OS!")
             exit(1)
