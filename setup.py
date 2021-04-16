@@ -17,7 +17,7 @@ README = (HERE / "README.md").read_text()
 # Setup
 setup(
     name='auto-clockify',
-    version='0.0.4',
+    version='0.0.5',
     description='Automation code snipplets to start and stop Clockify via API calls.',
     author='Adam Jakab',
     author_email='adam@jakab.pro',
@@ -32,7 +32,7 @@ setup(
     packages=['autoclockify'],
     entry_points={
         'console_scripts': [
-            'auto_clockify = autoclockify.auto_clockify:main',
+            'auto_clockify = autoclockify.ac:main',
         ],
     },
 
