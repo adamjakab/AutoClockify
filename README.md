@@ -7,10 +7,10 @@ Usage
 -----
 
 Start the timer:
-> python main.py --config=/path/to/config.json start
+> auto_clockify --config=/path/to/config.json start
 
 Stop the timer:
-> python main.py --config=/path/to/config.json stop
+> auto_clockify --config=/path/to/config.json stop
 
 
 Configuration
